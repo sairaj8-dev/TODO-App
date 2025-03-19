@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>To-Do App</title>
+</head>
+<body>
+  <video autoplay muted loop id="background-video">
+    <source src="assets/bg.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="container">
+    <h1 id="main-heading">To-Do App</h1>
+    <button onclick="openPopup();" class="add-btn">Add To-Do</button>
+    <div class="todo-container"></div>
+  </div>
+
+  <!-- Popup Modal -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <h2>Add a New Task</h2>
+      <input id="ToDo-input" type="text" placeholder="Enter To-Do Here">
+      <input id="ToDo-date" type="date">
+      <input id="ToDo-time" type="time">
+      
+      <!-- Priority Selection -->
+      <select id="ToDo-priority">
+        <option value="High">🔥 High</option>
+        <option value="Medium">⚡ Medium</option>
+        <option value="Low">✅ Low</option>
+      </select>
+
+      <!-- Category Selection -->
+      <select id="ToDo-category">
+        <option value="Work">💼 Work</option>
+        <option value="Shopping">🛒 Shopping</option>
+        <option value="Personal">🏠 Personal</option>
+        <option value="Others">📌 Others</option>
+      </select>
+
+      <button onclick="addToDo();" class="save-btn">Save</button>
+      <button onclick="closePopup();" class="close-btn">Cancel</button>
+    </div>
+  </div>
+      
+  <script src="script.js"></script>
+</body>
+</html>
