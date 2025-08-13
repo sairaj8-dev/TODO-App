@@ -92,4 +92,6 @@ This project is licensed under the **MIT License** — feel free to use and modi
 
 ## 📬 Contact
 
-- **GitHub:** [sairaj8-dev](https://github.com/sairaj8-dev)  
+- **GitHub:**
+- [PrathameshMahore](https://github.com/PrathameshMahore)
+-  [sairaj8-dev](https://github.com/sairaj8-dev)  
