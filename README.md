@@ -51,11 +51,7 @@ TODO-App/
 3. **Open the App**
    - Open `index.html` in your browser.
 
----
 
-## 🌐 Live Demo
-If hosted via GitHub Pages, you can access it here:  
-**[View Live Project](https://sairaj8-dev.github.io/TODO-App/)**
 
 ---
 
